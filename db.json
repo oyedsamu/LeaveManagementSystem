@@ -1,0 +1,163 @@
+{
+    "employees": [{
+            "id": 1,
+            "firstName": "Paul",
+            "lastName": "Okoye",
+            "email": "paulokoye@amazemedia.com",
+            "password": "uniquePassword1",
+            "phoneNumber": "2348145508029",
+            "dept": "Creatives",
+            "level": 1,
+            "remLeaveDays": {
+                "annualLeave": 20,
+                "casualLeave": 5,
+                "sickLeave": 5
+            },
+            "usedLeaveDays": {
+                "annualLeave": 0,
+                "casualLeave": 0,
+                "sickLeave": 0
+            }
+        },
+        {
+            "id": 2,
+            "firstName": "Bisola",
+            "lastName": "Adepoju",
+            "email": "bisolaadepoju@amazemedia.com",
+            "password": "makemydayBright2",
+            "phoneNumber": "2348162339425",
+            "dept": "Creatives",
+            "level": 1,
+            "remLeaveDays": {
+                "annualLeave": 20,
+                "casualLeave": 5,
+                "sickLeave": 5
+            },
+            "usedLeaveDays": {
+                "annualLeave": 0,
+                "casualLeave": 0,
+                "sickLeave": 0
+            }
+        },
+        {
+            "id": 3,
+            "firstName": "Abanishe",
+            "lastName": "Kabir",
+            "email": "abanishekabir@amazemedia.com",
+            "password": "doGoodalways3",
+            "phoneNumber": "2348079009212",
+            "dept": "Creatives",
+            "level": 1,
+            "remLeaveDays": {
+                "annualLeave": 20,
+                "casualLeave": 5,
+                "sickLeave": 5
+            },
+            "usedLeaveDays": {
+                "annualLeave": 0,
+                "casualLeave": 0,
+                "sickLeave": 0
+            }
+        },
+        {
+            "id": 4,
+            "firstName": "Smith",
+            "lastName": "Chibuzor",
+            "email": "smithchibuzor@amazemedia.com",
+            "password": "ademaratiPlusplus4",
+            "phoneNumber": "2347063782691",
+            "dept": "Logistics",
+            "level": 2,
+            "remLeaveDays": {
+                "annualLeave": 20,
+                "casualLeave": 5,
+                "sickLeave": 5
+            },
+            "usedLeaveDays": {
+                "annualLeave": 0,
+                "casualLeave": 0,
+                "sickLeave": 0
+            }
+        },
+        {
+            "id": 5,
+            "firstName": "Oyinbo",
+            "lastName": "John",
+            "email": "oyinbojohn@amazemedia.com",
+            "password": "verzwhyte005",
+            "phoneNumber": "234816180018",
+            "dept": "Logistics",
+            "level": 2,
+            "remLeaveDays": {
+                "annualLeave": 20,
+                "casualLeave": 5,
+                "sickLeave": 5
+            },
+            "usedLeaveDays": {
+                "annualLeave": 0,
+                "casualLeave": 0,
+                "sickLeave": 0
+            }
+        },
+        {
+            "id": 6,
+            "firstName": "Damola",
+            "lastName": "Ademola",
+            "email": "damolaademola@amazemedia.com",
+            "password": "babaLoleshe666",
+            "phoneNumber": "2347032254737",
+            "dept": "HR",
+            "level": 3,
+            "remLeaveDays": {
+                "annualLeave": 20,
+                "casualLeave": 5,
+                "sickLeave": 5
+            },
+            "usedLeaveDays": {
+                "annualLeave": 0,
+                "casualLeave": 0,
+                "sickLeave": 0
+            }
+        },
+        {
+            "id": 7,
+            "firstName": "Samson",
+            "lastName": "Akinsanya",
+            "email": "samsonakinsanya@amazemedia.com",
+            "password": "dontcomeAgain77",
+            "phoneNumber": "2348168829686",
+            "dept": "Production",
+            "level": 1,
+            "remLeaveDays": {
+                "annualLeave": 20,
+                "casualLeave": 5,
+                "sickLeave": 5
+            },
+            "usedLeaveDays": {
+                "annualLeave": 0,
+                "casualLeave": 0,
+                "sickLeave": 0
+            }
+        },
+        {
+            "id": 8,
+            "firstName": "Demilade",
+            "lastName": "Owolabi",
+            "email": "demiladeowolabi@amazemedia.com",
+            "password": "Someonesheartbeat8",
+            "phoneNumber": "2347067766382",
+            "dept": "Marketing",
+            "level": 1,
+            "remLeaveDays": {
+                "annualLeave": 20,
+                "casualLeave": 5,
+                "sickLeave": 5
+            },
+            "usedLeaveDays": {
+                "annualLeave": 0,
+                "casualLeave": 0,
+                "sickLeave": 0
+            }
+        }
+    ]
+}
