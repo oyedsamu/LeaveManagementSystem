@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leave Management System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="js\jquery-migrate-3.1.0.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bt fixed-top">
+        </h2> Management System.</h2>
+    </nav>
+    <br>
+    <br>
+    <div>
+        <form action="post" method="post">
+            <input type="text" name="Name" value="name" placeholder="Enter your name">
+            <input type="text" name="Name" value="name" placeholder="Enter your name">
+        </form>
+    </div>
+    <div class="container">
+        <div class="table-responsive">
+            <h2>Staff Leave Details</h2>
+            <br>
+            <table class="table table-bordered table-success" id="employeeTable">
+                <tr>
+                    <th>ID Number</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Leave days applied for</th>
+                    <th>Remaining Leave days</th>
+                </tr>
+                
+
+            </table>
+
+        </div>
+    </div>
+    <script src="forindex.js"></script>
+</body>
+
+</html>
+    <!-- <script>
+        $(document).ready(function(){
+            $.getJSON("http://localhost:3000/users", function(data){
+                var employeeData = '';
+                $.each(data, function(key, value){
+                    employeeData += '<tr>';
+                    employeeData += '<td>' + `${value.id}` + "</td>";
+                    employeeData += "<td>" + value.name + "</td>";
+                    employeeData += "<td>" + value.dept + "</td>";
+                    employeeData += "<td>" + value.appLeave + "</td>";
+                    employeeData += "<td>" + value.remLeave + "</td>";
+                    employeeData += "</tr>"
+                });
+                $('#employeeTable').append(employeeData);
+            });
+        });
+    </script> -->
