@@ -15,15 +15,23 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bt fixed-top">
-        </h2> Management System.</h2>
-    </nav>
+    
     <br>
     <br>
     <div>
         <form action="post" method="post">
             <input type="text" name="Name" value="name" placeholder="Enter your name">
             <input type="text" name="Name" value="name" placeholder="Enter your name">
+            <select class="wrap-input100" name="dept" id="custom-select-lg">
+                   <option value="HR" disabled disabled>HR</option>
+                   <option value="Manager">Management</option>
+                   <option value="Creatives">Creatives</option>
+                   <option value="Logistics">Logistics</option>
+                   <option value="Production">Production</option>
+                   <option value="Marketing">Marketing</option>
+               </select>
+            <input type="number" value="leavedays" name="No of Leave days" max="20">
+            <input type="date" name="startdate" id="startdate" value="startdate" placeholder="2019-09-20">
         </form>
     </div>
     <div class="container">
@@ -37,6 +45,7 @@
                     <th>Department</th>
                     <th>Leave days applied for</th>
                     <th>Remaining Leave days</th>
+                    <th>Approval</th>
                 </tr>
                 
 
