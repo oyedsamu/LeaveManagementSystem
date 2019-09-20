@@ -1,6 +1,6 @@
 alert("Welcome to the Leave Management System");
     $(document).ready(function () {
-        $.getJSON("http://localhost:3000/users", function (data) {
+        $.getJSON("http://localhost:3000/users/", function (data) {
             var employeeData = '';
             $.each(data, function (key, value) {
                 employeeData += '<tr>';
