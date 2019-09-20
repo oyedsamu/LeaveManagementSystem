@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leave Management System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="js\jquery-migrate-3.1.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+       <h1>
+           <center>Welcome, please proceed to apply for leave or view your leave details.</center>
+       </h1>
+    </div>
+
+    <div id="staffLeaveDetails" class="">
+        <h2>
+            <p>View your leave details</p>
+        </h2>
+    </div>
+
+    <div id="leaveappl">
+        <h3>Apply for Leave</h3>
+        <form action="#" method="post">
+             <label for="leavetype">Choose Leave Type:</label>
+            <select name="leavetype" class="browser-default custom-select">
+                <option value="annualleave">Annual leave</option>
+                <option value="casualleave">Casual leave</option>
+                <option value="sickleave">Sick leave</option>
+            </select>
+            <br>
+            <label for="leavedays">How many days are you applying for?</label>
+            <select name="leavedays" class="browser-default custom-select">
+                    <option value="" disabled selected>None</option>
+                    <option value="1">A day off</option>
+                    <option value="2">2 days</option>
+                    <option value="3">3 days</option>
+                    <option value="4">4 days</option>
+                    <option value="5">1 week</option>
+                    <option value="6">1 week, 1 day</option>
+                    <option value="7">1 week, 2 days</option>
+                    <option value="8">1 week, 3 days</option>
+                    <option value="9">1 week, 4 days</option>
+                    <option value="10">2 weeks</option>
+                    <option value="11">2 weeks, 1 day</option>
+                    <option value="12">2 weeks, 2 days</option>
+                    <option value="13">2 weeks, 3 days</option>
+                    <option value="14">2 weeks, 4 days</option>
+                    <option value="15">3 weeks</option>
+                    <option value="16">3 weeks, 1 day</option>
+                    <option value="17">3 weeks, 2 days</option>
+                    <option value="18">3 weeks, 3 days</option>
+                    <option value="19">3 weeks, 4 days</option>
+                    <option value="20">4 full weeks</option>
+            </select>   
+            <input type="date" name="startdate" id="leavestartdate" value="2019-09-20">
+            <input type="date" name="enddate" id="leaveenddate" value="2019-09-20">
+        </form>
+    </div>
+
+    <div>
+        <p><b>Please note the following:</b>
+            <br>
+            1. Maximum no of days allowed for Annual leave is 20 working days or 4 weeks.
+            <br>
+            2. Maximum no of days allowed for Sick leave is 5 working days. If you need more, <br>
+            kindly discuss with the Human Resources personnel.
+            <br>
+            3. Maximum no of days allowed for casual leave is 5 working days.
+            <br>
+            Kindly discuss with your Manager first before applying.
+            <br>
+            4. Please ensure you apply for your annual at least two weeks ahead.
+            <br>
+            5. If you will be needing an adjustment to your approved leave dates,
+            <br> 
+            kindly discuss with the Human Resources Personnel.
+        </p>
+    </div>
+</body>
+<script src="forindex.js"></script>
+</html>

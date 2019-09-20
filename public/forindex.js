@@ -1,4 +1,19 @@
 alert("Welcome to the Leave Management System");
+    $(document).ready(function () {
+        $.getJSON("http://localhost:3000/users", function (data) {
+            var employeeData = '';
+            $.each(data, function (key, value) {
+                employeeData += '<tr>';
+                employeeData += '<td>' + `${value.id}` + "</td>";
+                employeeData += "<td>" + value.name + "</td>";
+                employeeData += "<td>" + value.dept + "</td>";
+                employeeData += "<td>" + value.appLeave + "</td>";
+                employeeData += "<td>" + value.remLeave + "</td>";
+                employeeData += "</tr>"
+            });
+            $('#employeeTable').append(employeeData);
+        });
+    });
 
 // var users = [
 //     {
@@ -28,4 +43,19 @@ alert("Welcome to the Leave Management System");
 //         }
 //     }
 // }
+
+// $(function(){
+//     $.getJSON("db.json", function(data){
+//         var employeeData = '';
+//         $.each(data, function(key, value){
+//             employeeData += "<tr>";
+//             employeeData += "<td>" + value.id + "</td>";
+//             employeeData += "<td>" + value.name + "</td>";
+//             employeeData += "<td>" + value.dept + "</td>";
+//             employeeData += "<td>" + value.appLeave + "</td>";
+//             employeeData += "<td>" + value.remLeave + "</td>";
+//             employeeData += </tr>
+//         });
+//     });
+// });
 

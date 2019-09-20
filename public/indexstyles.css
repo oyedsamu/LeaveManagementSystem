@@ -1,0 +1,19 @@
+
+
+html, body{
+    background-color: black;
+}
+
+.card-body{
+    background-color: darkgreen;
+    background: rgba(76, 175, 80, 0.3);
+}
+
+.card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
